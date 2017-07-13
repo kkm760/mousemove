@@ -19,6 +19,7 @@
 		<script type="text/javascript">
 			var box = document.getElementById('box');
 			box.onmousedown = function(ev){
+				//阻止默认程序
 				ev.preventDefault();
 				var dl = ev.clientX - box.offsetLeft;
 				var dt = ev.clientY - box.offsetTop;
